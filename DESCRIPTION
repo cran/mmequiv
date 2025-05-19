@@ -1,22 +1,16 @@
 Package: mmequiv
 Title: Calculate Standardized Morphine Milligram Equivalent Doses
-Version: 0.1.1
+Version: 1.0.0
 Authors@R: 
     person("Kenneth A.", "Taylor", , 
     "kenneth.taylor.dpt@gmail.com", 
     role = c("aut", "cre", "cph"),
     comment = c(ORCID = "0000-0002-3205-9280"))
-Description: Calculate morphine milligram equivalents (MME) for opioid dose 
-    comparison using standardized methods. Includes API wrapper functions to 
-    call 'NIH HEAL MME Online Calculator' and functions that replicate API 
-    calculations on the user's local machine from the comfort of 'R'.
-    Creation of the 'NIH HEAL MME Online Calculator' and the MME calculations 
-    implemented in this package are described in Adams MCB, Sward KA, Perkins 
-    ML, Hurley RW (2025) <doi:10.1097/j.pain.0000000000003529>.
+Description: Calculate morphine milligram equivalents (MME) for opioid dose comparison using standardized methods. Can directly call the 'NIH HEAL MME Online Calculator' <https://research-mme.wakehealth.edu/api> API or replicate API calculations on the user's local machine from the comfort of 'R'. Creation of the 'NIH HEAL MME Online Calculator' and the MME calculations implemented in this package are described in Adams MCB, Sward KA, Perkins ML, Hurley RW (2025) <doi:10.1097/j.pain.0000000000003529>.
 License: GPL (>= 3)
-Imports: cli, glue, httr2, lifecycle, rlang, tibble
+Imports: cli, glue, httr2, lifecycle, rlang
 Suggests: dplyr, httptest2 (>= 1.1.0), spelling, testthat (>= 3.0.0),
-        withr
+        tibble, withr
 Config/testthat/edition: 3
 Encoding: UTF-8
 RoxygenNote: 7.3.2
@@ -28,9 +22,9 @@ BugReports: https://github.com/KennethATaylor/mmequiv/issues
 Language: en-US
 Config/Needs/website: rmarkdown
 NeedsCompilation: no
-Packaged: 2025-04-15 12:01:00 UTC; uindy
-Author: Kenneth A. Taylor [aut, cre, cph]
-    (<https://orcid.org/0000-0002-3205-9280>)
+Packaged: 2025-05-19 23:39:30 UTC; uindy
+Author: Kenneth A. Taylor [aut, cre, cph] (ORCID:
+    <https://orcid.org/0000-0002-3205-9280>)
 Maintainer: Kenneth A. Taylor <kenneth.taylor.dpt@gmail.com>
 Repository: CRAN
-Date/Publication: 2025-04-17 21:10:02 UTC
+Date/Publication: 2025-05-19 23:50:03 UTC
